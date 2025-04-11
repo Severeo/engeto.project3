@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    #overview {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mini-gallery .gallery-preview {
+        flex-direction: column;
+    }
+
+    .mini-gallery .gallery-preview img {
+        width: 80%;
+        margin: 5px auto;
+    }
+
+    .gallery .gallery-item {
+        width: 80%;
+    }
+
+    #parallax {
+        height: 250px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        background: #444;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        text-align: right;
+        padding: 1em;
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+    }
+}

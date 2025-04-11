@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="cs">
+                <!-- Anastasiia Zherebtsova -->
+                <!-- anastasiasurovaa3@gmail.com -->
+                <!-- _severeo_7219 -->
+<head>
+    <title>Projekt 3: Komplexní webové stránky</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./query.css" />
+    <script defer src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/8ba26cb1dc.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="light">
+    <header>
+        <div class="logo">
+            <h1>Krásy Česka</h1>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#description">Popis</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contacts">Kontakty</a></li>
+            </ul>
+            <div class="burger"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+        <button id="themeToggle"><i class="fa-solid fa-moon"></i></button>
+    </header>
+    <main>
+        <section id="overview">
+            <div class="password-container">
+                <h2>Formulář</h2>
+                <form id="passwordForm">
+                    <input type="password" id="pass1" placeholder="Zadej heslo" required>
+                    <input type="password" id="pass2" placeholder="Zopakuj heslo" required>
+                    <span id="passMessage"></span>
+                    <button type="submit" class="btn">Odeslat</button>
+                </form>
+            </div>
+            <div class="mini-gallery">
+                <h2>Mini-Náhled Galerie</h2>
+                <div class="gallery-preview"></div>
+                <a href="#gallery" class="btn">Přejít do galerie</a>
+            </div>
+        </section>
+        <section id="parallax"></section>
+        <section id="description" class="description-section">
+            <h2>Popis</h2>
+            <p>
+                Vítejte v Klubu milovníků české přírody! Objevte kouzlo nedotčených lesů, pohádkových jezer a malebných
+                hor České republiky. <br>
+                Sdílejte své zážitky, objevujte nové trasy a setkávejte se s dalšími nadšenci, kteří milují divokou
+                krásu naší země. <br>
+            </p>
+        </section>
+        <section id="parallax"></section>
+        <section id="gallery" class="gallery-section">
+            <h2>Galerie</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="./img/gallery_1.png" alt="Ještěd">
+                    <div class="overlay">Ještěd</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_2.png" alt="České Švýcarsko">
+                    <div class="overlay">České Švýcarsko</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_3.png" alt="Morava">
+                    <div class="overlay">Morava</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_4.png" alt="Adršpašsko-teplické skály">
+                    <div class="overlay">Adršpašsko-teplické skály</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_5.png" alt="Pravčická brána">
+                    <div class="overlay">Pravčická brána</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_6.png" alt="Sněžka">
+                    <div class="overlay">Sněžka</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_7.png" alt="Dolní Morava">
+                    <div class="overlay">Dolní Morava</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_8.png" alt="Zvíkov">
+                    <div class="overlay">Zvíkov</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="./img/gallery_9.png" alt="Sudety">
+                    <div class="overlay">Sudety</div>
+                </div>
+            </div>
+        </section>
+        <section id="parallax"></section>
+        <section id="contacts" class="contacts-section">
+            <h2>Kontakty</h2>
+            <div class="contacts-wrapper">
+                <h3>Chcete se dozvědět více? Kontaktujte nas!</h3>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://web.telegram.org/a/" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 severeo_</p>
+    </footer>
+    <a href="#" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+</body>
+</html>
