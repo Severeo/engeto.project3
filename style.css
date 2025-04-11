@@ -246,7 +246,7 @@ body.dark .social-links a {
 }
 
 .gallery .gallery-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .contacts-section {
